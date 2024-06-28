@@ -1,0 +1,1326 @@
+/* @import url('https://fonts.googleapis.com/css?family=Nova+Slim&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,600&display=swap');
+
+
+body, html {
+    line-height: 1.8;
+    /* font-family: 'Roboto', sans-serif; */
+    color: #555e58;
+    /* text-transform:capitalize; */
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4 {
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+
+p {
+    font-size: 15px;
+    margin: 12px 0 0;
+    line-height: 24px;
+}
+
+
+
+a {
+    color: #333;
+    font-weight: 400;
+}
+
+button:focus {
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul, ol {
+    padding: 0;
+    margin: 0px;
+    list-style: none;
+}
+
+
+
+a,
+a:hover,
+a:focus {
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+/* ---------------------------------------------------
+   my cdoe
+----------------------------------------------------- */
+/* #sidebar.active .list-unstyled {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#sidebar.active .btn-toggle{
+    top: 20px;
+}
+.sidebar .list-unstyled ul {
+    display: none;
+  } */
+
+  .span-thanku{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    color: rgba(66, 83, 146, 1);
+}
+.primary-1{
+    background: linear-gradient(to right, #6779BE 0%, #3E4F96 100%);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 6px;
+    
+
+}
+.primary-2{
+    background: linear-gradient(to right, rgba(255, 179, 109, 1), rgba(221, 127, 42, 1));
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 6px;
+}
+.btn-span{
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-family: "Poppins";
+    font-weight: 400;
+
+}
+  
+  .bg-color-use::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    backdrop-filter: blur(1px); /* Adjust the blur intensity as needed */
+}
+.modal-body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bg-color-use{
+    background: rgba(249, 249, 249, 0.25);
+}
+
+.span-congratulation{
+    font-weight: 700;
+    font-family: "Poppins";
+    font-size: 30px;
+    color: rgba(65, 80, 141, 1);
+}
+
+.span-congratulation-a{
+    font-size: 26px;
+    font-family: "Poppins";
+    font-weight: 400;
+    color: rgba(163, 163, 163, 1);
+}
+
+
+
+   .A-padding-margin{
+    padding: 3px;
+    margin-top: 29px;
+  } 
+   .B-padding-margin{
+    padding: 12px 0;
+    background: rgba(241, 240, 240, 1);
+    flex-direction: column;
+    margin-top: 25px;
+    border-radius: 12px;
+  } 
+.reviews-analysis {
+    background: linear-gradient(to right, rgba(64, 253, 33, 1), rgba(23, 135, 34, 1));
+    color: #ffffff;
+    font-size: 11px;
+    font-family: "Poppin";
+    font-weight: 500;
+    /* padding: 5px 22px; */
+    padding: 2px 12px;
+    display: flex;
+    gap: 12px;
+    border-radius: 5px;
+}
+.review-analysis{
+    background: linear-gradient(135deg, #FD2121 0%, #871717 100%);
+    color: #ffffff;
+    font-size: 11px;
+    font-family: "Poppin";
+    padding: 2px 12px;
+    font-weight: 500;
+    /* padding: 5px 22px; */
+    border-radius: 5px;
+}
+
+
+.analysis-para {
+    font-size: 16px;
+    font-family: "Poppins";
+    font-weight: 400;
+    color: rgba(185, 185, 185, 1);
+}
+
+.analysis {
+    font-size: 22px;
+    font-family: "Poppins";
+    font-weight: 600;
+    color: rgba(59, 77, 140, 1);
+}
+
+.form-bg {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 12px;
+}
+
+form {
+    padding: 24px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    background: rgba(241, 240, 240, 1);
+    border-radius: 8px;
+    font-family: "Poppins";
+    box-sizing: border-box;
+    color: rgba(59, 77, 140, 1);
+    font-size: 13px;
+
+}
+
+.btn-style-support {
+
+    background: rgba(224, 130, 45, 1);
+    color: white;
+    padding: 14px 20px;
+
+    font-size: 14px;
+    font-size: "inter";
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+label {
+    font-family: "Poppins";
+    color: rgba(59, 77, 140, 1);
+    margin-bottom: -8px;
+    font-size: 15px;
+}
+
+.disc {
+    height: 80px;
+
+}
+
+.name-input {
+    height: 50px;
+}
+
+
+.position-section {
+    position: relative;
+}
+
+.card-footer {
+    position: absolute;
+    min-height: 138px;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 12px !important;
+    top: 210px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 7px 29px 0px;
+    color: rgba(66, 83, 146, 1);
+}
+
+.para-position {
+    font-size: 13px;
+    font-weight: 400;
+    padding: 11px 45px;
+    font-family: "Poppins";
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.card {
+    height: 255px;
+}
+
+.main-section-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 35px;
+    flex-wrap: wrap;
+}
+
+.pages {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins";
+    color: #7C87B5;
+    ;
+}
+
+.forword {
+    color: #7C87B5;
+}
+
+.pages-dashboard {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+
+.account-content {
+    background: rgba(60, 79, 147, 0.8);
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-family: "Poppins";
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.upgrade-A {
+    background: rgba(224, 130, 45, 1);
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: "Poppins";
+    color: #ffffff;
+
+}
+
+.rotate {
+    transform: rotate(-90deg);
+    transition: transform 0.3s ease;
+    /* You can adjust the duration and easing as needed */
+}
+
+.img-3 {
+    display: none;
+}
+
+#sidebar.active .img-3 {
+    display: block;
+    /* margin-left: 14px; */
+}
+
+#sidebar.active .a-need-help {
+    display: none;
+}
+
+.need-para {
+    font-size: 11px;
+    font-family: "Poppins";
+    font-weight: 500;
+    margin: 0 !important;
+
+}
+
+.card-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Poppins';
+}
+
+.btn-style {
+
+    text-align: center;
+    padding: 8px 55px;
+    border-radius: 10px;
+    background-color: rgba(224, 130, 45, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    cursor: pointer;
+    margin-top: 12px;
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.img-fluid {
+    display: none;
+}
+
+#sidebar.active .img-fluid {
+    display: block;
+}
+
+.btn-toggle {
+    position: absolute;
+    right: -29px;
+    margin-top: 73px;
+    font-size: 11px;
+    width: 25px;
+    height: 25px;
+    background: #334484;
+    text-align: center;
+    border-radius: 50%;
+}
+
+
+
+.a-need-help {
+    /* display: flex; */
+    justify-content: center;
+    flex-direction: column;
+    /* width: 90%; */
+    padding: 22px;
+    margin: 0 auto;
+    background: linear-gradient(184deg, rgba(97, 59, 84, 0.48), rgba(32, 15, 15, 0.48));
+    ;
+    border-radius: 12px;
+    color: #ffffff;
+    /* justify-content: center; */
+    text-align: center;
+    align-items: center;
+}
+
+.need-header {
+    font-size: 16px;
+    font-family: "Inter";
+    font-weight: 600;
+}
+
+/* li a.dashboard {
+    display: flex;
+    align-items: center;
+}
+
+li a.dashboard img {
+    margin-right: 10px; /* Adjust the margin as needed */
+.subscription-margin {
+    margin-left: 16px;
+}
+
+/* .img-2{
+    margin-left: 14px;
+} */
+
+#sidebar.active .dashboard {
+    margin-left: -10px
+}
+
+.admin-avatar {
+    display: flex;
+    flex-direction: column;
+    padding-left: 14px;
+
+}
+
+.a-admin {
+    color: rgba(255, 255, 255, 0.32);
+    font-size: 11px;
+    font-weight: 500;
+    font-family: "inter";
+}
+
+.admin-name {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Inter";
+    margin-top: -5px;
+
+}
+
+.main-text {
+    margin-left: 8px;
+    font-size: 11px;
+    font-family: "inter";
+    color: rgba(255, 255, 255, 0.32);
+}
+
+
+/* mbl icon show */
+
+.plus-icon-mbl {
+    background: rgba(224, 130, 45, 1);
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 13px;
+    padding: 10px 10px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+
+
+#sidebar.active .plus-icon-mbl {
+    display: block;
+    margin-left: -10px !important;
+
+
+}
+
+.plus-icon-mbl {
+    display: none;
+}
+
+/* ---------------------------------------------------
+my code
+----------------------------------------------------- */
+
+/*=======================================================
+  material-icons  copy & paste form site google material-icons
+  ==================================================*/
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot);
+    /* For IE6-8 */
+    src: local('Material Icons'),
+        local('MaterialIcons-Regular'),
+        url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+        url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+        url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+/*=======================================================
+  material-icons  copy & paste form site google material-icons
+  ==================================================*/
+
+
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    overflow: auto;
+}
+
+
+
+
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE start
+----------------------------------------------------- */
+
+
+
+#sidebar {
+    position: fixed;
+    height: 100vh !important;
+    top: 0;
+    bottom: 0;
+    border-radius: 0 22px 22px 0;
+    left: 0;
+    z-index: 11;
+    width: 260px;
+    /* overflow:auto; */
+    transition: all 0.3s;
+    background: linear-gradient(#2F438D, #596DB7, #2F438D);
+    box-shadow: 0 10px 30px -12px rgb(0 0 0 / 42%), 0 4px 25px 0px rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(0 0 0 / 20%);
+}
+
+
+#sidebar::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 10px;
+    background-color: #eee;
+    display: none;
+}
+
+#sidebar::-webkit-scrollbar-thumbs {
+    width: 5px;
+    border-radius: 10px;
+    background-color: #333;
+    display: none;
+}
+
+
+#sidebar:hover::-webkit-scrollbar {
+    display: block;
+}
+
+#sidebar:hover::-webkit-scrollbar-thumbs {
+    display: block;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    /* background-color:#ffffff;
+	border-bottom:1px solid #eee; */
+    /* padding: 20px; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.sidebar-header h3 {
+    color: #333;
+    font-size: 17px;
+    margin: 0px;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    font-weight: 600;
+}
+
+.sidebar-header h3 img {
+    width: 45px;
+    margin-right: 10px;
+}
+
+#sidebar ul li {
+    padding: 7px 21px;
+}
+
+#sidebar ul li.active {
+    padding: 2px 7px !important;
+
+}
+
+#sidebar ul li.active>a {
+    border-radius: 12px;
+    color: #fff;
+    background-color: rgba(102, 37, 37, 0.12);
+}
+
+/* #sidebar ul li a:hover{
+    color: #ffffff;
+    background-color: rgba(102, 37, 37, 0.12);
+} */
+
+.dropdown-toggle::after {
+    position: absolute;
+    right: 10px;
+    top: 23px;
+}
+
+#sidebar ul li.drodown {
+    position: sticky;
+}
+
+
+#sidebar ul.components {
+    padding: 20px 0;
+}
+
+#sidebar ul li a {
+    padding: 5px;
+    color: #fff;
+    line-height: 30px;
+    border-radius: 5px;
+    align-items: center;
+    font-size: 14px;
+    position: relative;
+    font-weight: 500;
+    display: "-webkit-inline-box";
+    display: flex;
+    font-family: "Inter";
+    /* display: block; */
+}
+
+#sidebar ul li a span {
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+#sidebar ul li a i {
+    position: relative;
+    margin-right: 10px;
+    top: 1px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+
+
+
+
+/* ---------------------------------------------------
+   sidebar end
+----------------------------------------------------- */
+
+
+
+
+/*=======================================================
+   main-content navbar-design start
+   ===============================================*/
+
+
+
+/* #content {
+	position: relative;
+    transition: all 0.3s;
+	background-color: #EEEEEE;
+} */
+
+.top-navbar {
+    width: 100%;
+    z-index: 9;
+    position: relative;
+}
+
+
+.main-content {
+    padding: 10px 20px 0px 20px;
+    position: relative;
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+
+.navbar {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.navbar-brand {
+    color: #FFFFFF;
+}
+
+.navbar button {
+    background-color: transparent;
+    border: none;
+}
+
+.navbar button span {
+    color: #fff;
+}
+
+#sidebarCollapse {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    /* line-height: 45px; */
+    margin-right: 20px;
+    border: none;
+    color: #FFFFFF;
+}
+
+#sidebarCollapse span {
+    margin: 9px;
+    padding: 0px;
+}
+
+
+
+.navbar-nav>li.active {
+    color: #FFFFFF;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+.navbar-nav>li>a {
+    color: #FFFFFF;
+}
+
+
+.navbar .notification {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    display: block;
+    font-size: 9px;
+    border: 0px;
+    font-size: 10px;
+    background: #d9534f;
+    min-width: 15px;
+    text-align: center;
+    padding: 1px 5px;
+    height: 15px;
+    border-radius: 2px;
+    line-height: 14px;
+}
+
+
+.navbar-nav>li.show .dropdown-menu {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.dropdown-menu li>a {
+    font-size: 13px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 2px;
+    font-weight: 400;
+    transition: all 150ms linear;
+}
+
+.navbar-nav>.active>a:focus {
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+
+.navbar-nav li a {
+    position: relative;
+    display: block;
+    padding: 10px 15px !important;
+}
+
+/*=======================================================
+   main-content navbar-design end
+   ===============================================*/
+.dashboard {
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* display: flex !important;
+    gap: 29px; */
+    /* align-items: center; */
+}
+
+
+/*=======================================================
+   main-content navbar-design start
+   ===============================================*/
+
+
+/*=======================================================
+   main-content inner design like card start
+   ===============================================*/
+
+
+.card {
+    margin: 10px 0;
+}
+
+/* .card {
+    border-radius: 10px!important;
+} */
+.bg-color {
+    /* width: 95%;
+    height: 15rem;
+    margin-top: 37px; */
+    /* border-radius: 18px; */
+    background: url('/images/bg.png') center/cover;
+    background-color: #596DB7;
+    color: #fff;
+}
+
+.card {
+    display: inline-block;
+    position: relative;
+    border: none !important;
+    width: 100%;
+    margin: 15px 0;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 8%);
+    border-radius: 18px;
+    color: rgba(0, 0, 0, 0.87);
+    /* background: #fff; */
+}
+
+.card-stats .card-header {
+    float: left;
+    text-align: center;
+}
+
+.card .card-header {
+    padding: 15px 20px 0;
+    z-index: 3;
+    /* background-color:#fff!important; */
+    border-bottom: none;
+}
+
+.card .card-footer .stats .material-icons {
+    position: relative;
+    top: 4px;
+    font-size: 16px;
+}
+
+.card-stats .card-header span {
+    font-size: 36px;
+    line-height: 56px;
+    width: 56px;
+    height: 56px;
+}
+
+.icon.icon-warning {
+    color: #ff9800;
+}
+
+.icon.icon-rose {
+    color: #e91e63;
+}
+
+.icon.icon-success {
+    color: #4caf50;
+}
+
+.icon.icon-info {
+    color: #00bcd4;
+}
+
+.card .card-footer {
+    /* margin: 0 7px 0px; */
+    padding-top: 10px;
+    background-color: #fff;
+    border-top: 1px solid #eeeeee;
+}
+
+.text-info {
+    color: #03A9F4 !important;
+}
+
+.card-stats .card-content {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.card .card-content {
+    padding: 15px 20px;
+    position: relative;
+}
+
+.card .card-content .category {
+    margin-bottom: 0;
+}
+
+.card .category:not([class*="text-"]) {
+    color: #555555;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card .card-title:not(.card-calendar .card-title) {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.card-stats .card-title {
+    margin: 0;
+}
+
+.card .card-footer .stats {
+    line-height: 22px;
+    color: #555555;
+    font-size: 15px;
+}
+
+.card .card-footer div {
+    display: inline-block;
+}
+
+.card .card-header-text h4 {
+    margin-top: 0;
+    margin-bottom: 3px;
+    font-size: 19px;
+    font-weight: 400;
+    color: #222222;
+    text-decoration: none;
+
+}
+
+.table>thead>tr>th {
+    border-bottom-width: 1px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.card .card-content {
+    padding: 15px 20px;
+    position: relative;
+}
+
+.streamline .sl-primary {
+    border-left-color: #188ae2;
+}
+
+.streamline .sl-item {
+    position: relative;
+    padding-bottom: 12px;
+    border-left: 1px solid #ccc;
+}
+
+
+
+.streamline .sl-item:before {
+    content: '';
+    position: absolute;
+    left: -6px;
+    top: 0;
+    background-color: #ccc;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+}
+
+.streamline .sl-primary:before, .streamline .sl-primary:last-child:after {
+    background-color: #188ae2;
+}
+
+
+.streamline .sl-danger:before, .streamline .sl-danger:last-child:after {
+    background-color: #ff5b5b;
+}
+
+.streamline .sl-success {
+    border-left-color: #10c469;
+}
+
+.streamline .sl-success:before, .streamline .sl-success:last-child:after {
+    background-color: #10c469;
+}
+
+.streamline .sl-warning {
+    border-left-color: #f9c851;
+}
+
+.streamline .sl-warning:before, .streamline .sl-warning:last-child:after {
+    background-color: #f9c851;
+}
+
+
+
+.streamline .sl-danger {
+    border-left-color: #ff5b5b;
+}
+
+.streamline .sl-item .sl-content {
+    margin-left: 24px;
+}
+
+.streamline .sl-item .text-muted {
+    color: inherit;
+    opacity: .6;
+    font-size: 12px;
+}
+
+.streamline .sl-item p {
+    font-size: 14px;
+    color: #333;
+}
+
+
+/*=======================================================
+   main-content inner design like card end
+   ===============================================*/
+
+
+
+/*=============================================
+  footer design start
+  =========================================*/
+
+.footer {
+    border-top: 1px solid #e7e7e7;
+}
+
+footer {
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer ul li a {
+    color: inherit;
+    padding: 15px;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    text-decoration: none;
+    position: relative;
+    display: block;
+}
+
+
+footer .copyright {
+    padding: 15px;
+    font-size: 14px;
+    margin: 0;
+}
+
+
+/*=============================================
+  footer design end
+  =========================================*/
+
+
+
+#sidebar.show-nav, .body-overlay.show-nav {
+    transform: translatex(0%);
+    opacity: 1;
+    display: block;
+    visibility: visible;
+    z-index: 15;
+}
+
+
+
+
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+
+@media only screen and (min-width:992px) {
+    #sidebar.active {
+        width: 90px;
+        height: 100% !important;
+        position: absolute !important;
+        overflow: visible !important;
+        top: 0 !important;
+        z-index: 666;
+        float: left !important;
+        bottom: 0 !important;
+    }
+
+
+    #sidebar.active .sidebar-header h3 span {
+        display: none;
+        transition: all 0.5s ease;
+    }
+
+    #sidebar.active ul li a span {
+        display: none;
+        transition: all 0.5s ease;
+    }
+
+    #sidebar.active .dropdown-toggle::after {
+        display: none;
+        transition: all 0.5s ease;
+    }
+
+    #content {
+        width: calc(100% - 260px);
+        position: relative;
+        float: right;
+        transition: all 0.3s;
+        /* background-color: #EEEEEE; */
+    }
+
+    #content.active {
+        width: calc(100% - 80px);
+    }
+
+    #sidebar.active .menu {
+        position: absolute;
+        left: 81px;
+        background-color: rgba(48, 66, 130, 0.56);
+        width: 180px;
+        height: auto;
+        margin: 5px 0;
+        top: 0;
+        /* border: 1px solid #dcd9d9; */
+        border-radius: 10px;
+        z-index: 4;
+        color: rgba(255, 255, 255, 0.56);
+        ;
+    }
+}
+
+
+@media only screen and (min-width:992px) {
+    .dropdown-menu {
+        border: 0;
+        box-shadow: 0 2px 5px 0 rgb(0 0 0 / 26%);
+        transform: translate3d(0, -20px, 0);
+        visibility: hidden;
+        transition: all 150ms linear;
+        display: block;
+        min-width: 15rem;
+        right: 0;
+        left: auto;
+        opacity: 0;
+    }
+
+}
+
+
+/*===============small-screen overlay sidebar design media queries==============*/
+
+@media only screen and (max-width:992px) {
+    #sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        z-index: 10;
+        width: 260px;
+        transform: translatex(-100%);
+        transition: all 150ms linear;
+        box-shadow: none !important;
+    }
+
+    .body-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        z-index: 3;
+        transition: all 150ms linear;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .para-position {
+        padding: 0 !important;
+    }
+
+}
+
+
+@media (max-width: 964px) {
+    .analysis-bg {
+        max-width: 100% !important;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .account-content, .upgrade-A, .para-position {
+
+        font-size: 12px;
+    }
+
+    .card-title {
+        font-size: 11px;
+    }
+
+    .card-content-a {
+        font-size: 12px !important;
+    }
+
+    .page-dashboard-forword {
+        display: none;
+    }
+
+    .at-responsive {
+        display: contents;
+    }
+}
+
+@media (max-width: 530px) {
+    .top-at-mbl {
+        margin-top: 148px !important;
+
+    }
+
+}
+
+@media (max-width: 500px) {
+    .main-section-content {
+        padding: 0 !important;
+        font-size: 12px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        gap: 12px;
+    }
+
+    .at-responsive {
+        display: flex !important;
+        flex-direction: column !important;
+        font-size: 10px;
+        gap: 10px;
+    }
+
+    .at-responsive {
+        margin-top: 20px;
+    }
+}
+@media (max-width:992px){
+    .A-padding-margin {
+        margin-top: 0 !important;
+        padding-left: 20px !important;
+
+    }
+    .B-padding-margin{
+        margin-top: 0 !important;
+    }
+}
+
+@media(max-width: 725px){
+    .btn-span, .span-thanku{
+       font-size: 11px;
+    }
+}
+/*===============small-screen overlay sidebar design media queries==============*/
+
+
+
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
